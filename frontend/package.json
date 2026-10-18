@@ -1,0 +1,22 @@
+{
+  "name": "yourda-ai-react",
+  "private": true,
+  "version": "0.16.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.15"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

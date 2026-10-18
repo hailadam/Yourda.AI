@@ -1,0 +1,44 @@
+# Secrets / local state
+.env
+.env.*.local
+backend/.env
+backend/*.db
+backend/*.sqlite*
+*.db
+# Python
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.DS_Store
+
+# API keys and environment secrets
+.env*
+!.env.example
+
+# Python environments and caches
+.venv*
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# React and Node.js
+node_modules/
+dist/
+.vite/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Other local/private files
+.DS_Store
+*.pem
+*.key
